@@ -1,0 +1,82 @@
+.to-do-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.to-do-list h1 {
+  text-align: center;
+}
+
+.to-do-list input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.to-do-list .add-button {
+  background-color: #FCCDD9;
+  font-family: Montserrat, Sans serif;
+  color: #111;
+  font-weight: bolder;
+  padding: 17px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15%;
+  font-size: 27px;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 0px 6px 0px #EDA6BB;
+}
+
+.to-do-list .add-button:hover {
+  background-color: #FCD7D2;
+  box-shadow: 0px 6px 0px #EEA094;
+}
+
+.to-do-list ol {
+  padding-left: 20px;
+}
+
+.to-do-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.to-do-list .text {
+  flex-grow: 1;
+}
+
+.to-do-list .delete-button,
+.to-do-list .move-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.to-do-list .delete-button:hover {
+  color: red;
+}
+
+.to-do-list .move-button:hover {
+  color: #007bff;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #051a1d;
+  background-image:               url("https://media.giphy.com/media/l378nVnWg2GtIEAgM/giphy.gif");
+  background-position: 50px 30px;
+  background-size: 70px 70px;
+}
+
+
